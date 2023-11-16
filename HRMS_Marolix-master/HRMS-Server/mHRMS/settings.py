@@ -82,15 +82,18 @@ WSGI_APPLICATION = 'mHRMS.wsgi.application'
 # }
 
 DATABASES = {
-   'default': {
-       'ENGINE': 'django.db.backends.postgresql',
-       'NAME': config('DATABASE_NAME'),
-       'USER': config('DATABASE_USER'),
-       'PASSWORD': config('DATABASE_PASSWORD'),
-       'HOST': config('DATABASE_HOST'),
-       'PORT': config('DATABASE_PORT'),
-   }
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'NewServerrrrrr',
+        'USER': 'postgres',
+        'PASSWORD': 'uuuu1111',
+        'HOST': 'localhost',
+        'PORT': '5432',
+    }
 }
+
+
+
 
 
 
